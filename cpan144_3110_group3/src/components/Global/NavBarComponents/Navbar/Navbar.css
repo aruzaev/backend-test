@@ -1,0 +1,98 @@
+.navbar__main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  margin-right: 20px;
+}
+
+.navbar__logo img {
+  width: 90px;
+}
+
+.navbar__links-container {
+  display: flex;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar__links-container1,
+.navbar__links-container2 {
+  display: flex;
+  margin-right: 20px;
+}
+
+.navbar__links-container1 a,
+.navbar__links-container2 a,
+.navbar__sign a {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.navbar__generate{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.navbar__sign {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__sign a {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-right: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.navbar__sign button {
+  padding: 0.5rem 1rem;
+  color: white;
+  font-family: var(--font-family);
+  background-color: #795c81;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.navbar__sign button {
+  padding: 0.5rem 1rem;
+  color: white;
+  font-family: var(--font-family);
+  background-color: #795c81;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

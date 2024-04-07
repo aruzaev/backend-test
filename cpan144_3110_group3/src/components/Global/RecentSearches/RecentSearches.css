@@ -1,0 +1,22 @@
+.recent-searches {
+  padding: 20px;
+  color: #fff;
+}
+
+.recent-searches h2 {
+  color: #fff;
+}
+
+.search-list {
+  list-style: none;
+  padding: 0;
+}
+
+.search-list li {
+  margin: 10px 0;
+}
+
+.search-list li a {
+  color: #9dafff;
+  text-decoration: none;
+}
