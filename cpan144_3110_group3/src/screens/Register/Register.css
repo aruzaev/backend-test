@@ -1,0 +1,45 @@
+.container {
+  font-family: "Arial", sans-serif; /* Use the same font-family as your header/footer */
+  color: #333; /* A color that stands out against the background */
+}
+
+body {
+  background-color: black;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #ccc; /* A subtle border */
+  border-radius: 4px; /* Match border-radius with the theme if any */
+  padding: 10px; /* Spacious padding for input */
+  margin-bottom: 20px; /* Consistent margin with the theme */
+  width: 100%; /* Full width */
+}
+
+/* Button styles */
+button[type="submit"] {
+  background-color: #5d3fd3; /* A purple shade from the header */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 4px; /* Match border-radius with the theme if any */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #4c32a8; /* A slightly darker purple for hover effect */
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Adjust alignment and spacing */
+.form-control {
+  /* Additional styling if needed */
+}
